@@ -1,0 +1,5 @@
+cd /opt/docker1
+docker build -t myhub .
+docker tag myhub sundardochub/myhub
+docker push sundardochub/myhub
+docker rmi myhub sundardochub/myhub
