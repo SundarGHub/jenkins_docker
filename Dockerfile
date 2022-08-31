@@ -1,3 +1,3 @@
 FROM tomcat
 MAINTAINER Sundar
-ADD ./webapp.war /usr/local/tomcat/webapps
+ADD target/webapp.war /usr/local/tomcat/webapps
